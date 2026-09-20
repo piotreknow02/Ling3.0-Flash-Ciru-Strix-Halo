@@ -1,0 +1,9 @@
+# Local config (copy from .env.sample)
+.env
+
+# 77 GB checkpoint + caches — never commit
+models/
+.cache/
+
+# Runtime log
+.ling3.log
